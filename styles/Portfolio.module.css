@@ -1,0 +1,27 @@
+.title {
+  color: red;
+}
+
+.portfolioList {
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolioLink {
+  border: solid 5px green;
+  display: block;
+}
+
+.portfolioLink a {
+  cursor: pointer;
+
+}
+.portfolioLink h4 {
+  text-align: center;
+}
+
+.capeLink {
+  background-color: purple;
+}

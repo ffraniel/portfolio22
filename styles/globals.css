@@ -4,6 +4,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background: rgb(65,119,150);
+    background: linear-gradient(rgb(223, 255, 231), rgb(132, 179, 206));
+    color: rgba(0,0,0,0.8);
+    font-size: 18px;
 }
 
 a {
@@ -13,4 +17,57 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+nav {
+  position: fixed;
+  height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+nav ul li {
+  color: #1c1b1b;
+  text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  margin: 5px 0;
+
+}
+nav ul li a {
+  font-size: 2em;
+  color: #1c1d75;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #f06161;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.text-title {
+  color: #413f3f;
+  text-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.container article p {
+  width: 80%;
+  margin: 5px auto;
+  max-width: 720px;
+  line-height: 1.5em;
+}
+
+.container article p span {
+  color:#f06161;
 }
